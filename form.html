@@ -11,6 +11,7 @@
     </header>
     <main>
         <form method="post" action="http://localhost:3000/profile">
+            <p>Please enter your name: </p>
             <div>
                 <label for="firstName">First name: </label>
                 <input type="text" id="firstName" name="firstName" value="...">
@@ -24,7 +25,7 @@
             </div>
         </form>
         <form method="post" action="http://localhost:3000/profile">
-            <p>Select your age</p>
+            <p>Select your age: </p>
             <div>
                 <input type="radio" id="young" name="young" value="0-30">
                 <label for="0-30">0-30</label>
@@ -38,6 +39,22 @@
                 <label for="50-100">50-100</label>
             </div>
                 <input type="submit" value="Submit">
+        </form>
+        <form method="post" action="http://localhost:3000/profile">
+            <p>Choose all that are relevant to you: </p>
+            <div>
+                <input type="checkbox" id="bike" name="bike" value="Bike">
+                <label for="bike">Bike</label>
+            </div>
+            <div>
+                <input type="checkbox" id="scooter" name="scooter" value="Scooter">
+                <lable for="scooter">Scooter</lable>
+            </div>
+            <div>
+                <input type="checkbox" id="skateboard" name="scateboard" value="Skateboard">
+                <label for="skateboard">Skateboard</label>
+            </div>
+                
         </form>
     </main>
     <footer>Copyright 2021 &copy;</footer>
