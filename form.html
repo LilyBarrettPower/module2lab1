@@ -10,7 +10,7 @@
       </nav>
     </header>
     <main>
-        <form method="POST" action="http://localhost:3000/profile">
+        <form method="post" action="http://localhost:3000/profile">
             <div>
                 <label for="firstName">First name: </label>
                 <input type="text" id="firstName" name="firstName" value="...">
@@ -22,6 +22,22 @@
             <div>
                 <input type="submit" value="Submit">
             </div>
+        </form>
+        <form method="post" action="http://localhost:3000/profile">
+            <p>Select your age</p>
+            <div>
+                <input type="radio" id="young" name="young" value="0-30">
+                <label for="0-30">0-30</label>
+            </div>
+            <div>
+                <input type="radio" id="middleAge" name="middleAge" value="30-50">
+                <label for="30-50">30-50</label>
+            </div>
+            <div>
+                <input type="radio" id="old" name="old" value="50-100">
+                <label for="50-100">50-100</label>
+            </div>
+                <input type="submit" value="Submit">
         </form>
     </main>
     <footer>Copyright 2021 &copy;</footer>
