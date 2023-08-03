@@ -2,6 +2,9 @@
 <html>
   <head>
     <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Lumanosimo&display=swap');
+
       /* I. Selectors */
       /* Put styles for sections 1.1, 1.2, 1.3 and 1.4 here */
       /* STyle selector */
@@ -73,11 +76,42 @@
 
         div.position-sticky {
             position: sticky;
+            background-color: yellow;
+            top: 10px;
         }
       /* IV. Styling text */
+        .text-style {
+            color: red;
+            font-size: 29px;
+            line-height: 40px;
+            font-weight: bold;
+            font-family: 'Borel', cursive;
+            text-align: center;
+            letter-spacing: 5px;
+            word-spacing: 10px;
+            text-transform: capitalize;
+            text-decoration: underline;
+        }
 
+        a:link, a:visited {
+            color: green;
+        }
+
+        a:hover {
+            cursor: pointer;
+            border: solid black;
+        }
+
+        a:active, a:focus {
+            text-decoration: dashed;
+            background-color: yellow;
+        }
 
       /* VI. calc() */
+
+      .calc-style {
+        width: calc(100vw - 100px);
+      }
 
     </style>
   </head>
