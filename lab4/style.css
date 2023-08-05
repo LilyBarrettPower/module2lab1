@@ -1,8 +1,9 @@
 
 .img1 {
     border-radius: 50%;
-    width: 100%;
+    width: 90%;
     height: 200px;
+    margin-left: 10px;
 }
 
 .container {
@@ -12,10 +13,56 @@
 
 .left {
     width:25%;
-    background-color: aqua;
+    background-color: grey;
 }
 
 .right {
     margin-left: 50px;
     width: 90%;
+}
+
+.head {
+    font-family: 'Akshar', sans-serif;
+}
+
+a:link, a:visited {
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+
+}
+
+a:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:active, a:focus {
+    text-decoration: none;
+}
+
+.head2 {
+    background-color: rgb(103, 93, 93);
+    color: white;
+    font-family: 'Akshar', sans-serif;
+}
+
+.contact {
+    font-family: 'Quicksand', sans-serif;
+}
+
+ul {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.heading {
+    font-family: 'Akshar', sans-serif;
+    font-weight: bold;
+}
+
+.content {
+    font-family: 'Quicksand', sans-serif;
+}
+
+time {
+    font-family: 'Courier New', Courier, monospace;
 }
