@@ -10,3 +10,12 @@
     justify-content: space-between;
 }
 
+.left {
+    width:25%;
+    background-color: aqua;
+}
+
+.right {
+    margin-left: 50px;
+    width: 90%;
+}
