@@ -2,7 +2,6 @@
     border-radius: 50%;
     width: 90%;
     height: 200px;
-    margin-left: 10px;
 }
 
 .container {
@@ -23,6 +22,10 @@
 
 .head {
     font-family: 'Akshar', sans-serif;
+}
+
+.list {
+    text-align: left;
 }
 
 a:link, a:visited {
