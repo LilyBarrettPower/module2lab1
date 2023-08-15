@@ -10,25 +10,28 @@
     display: flex;
     justify-content: space-between;
 }
+/* Making the flex box */
 
 .left {
     width:25%;
     background-color: grey;
 }
+/* left flexbox takes up 25% of the whole container */
 
 .right {
     margin-left: 50px;
     width: 90%;
 }
+/* right flexbox takes up 90% of the whole container */
 
 .head {
     font-family: 'Akshar', sans-serif;
 }
+/* Using google fonts which are linked in the head of the html file */
 
 a:link, a:visited {
     font-family: 'Quicksand', sans-serif;
     text-decoration: none;
-
 }
 
 a:hover {
@@ -39,6 +42,7 @@ a:hover {
 a:active, a:focus {
     text-decoration: none;
 }
+/* Styling the links at different points in time (pseudo) */
 
 .head2 {
     background-color: rgb(103, 93, 93);

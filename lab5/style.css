@@ -8,6 +8,7 @@
     display: flex;
     justify-content: space-between;
 }
+/* flex box */
 
 .left {
     width:25%;
@@ -42,6 +43,7 @@ a:hover {
 a:active, a:focus {
     text-decoration: none;
 }
+/* link styling */
 
 .head2 {
     background-color: rgb(103, 93, 93);
@@ -74,6 +76,7 @@ time {
     background-color: black;
     color: white;
 }
+/* Styling for dark mode initiated by the button click and function call */
 
 #btn {
     font-size: 20px;
@@ -90,6 +93,7 @@ time {
     background-color: grey;
     transform: translateY(2px);
 }
+/* styling of the button to create dark mode */
 
 .darkBtn {
     font-size: 20px;
@@ -99,13 +103,15 @@ time {
     color: white;
     background-color: black;
 }
+/* styling of the button during dark mode - toggles between this and above style */
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 600px) {
     .container {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
     }
+    /* creating the flex wrap so the two sections are one ontop of each other on smaller devices */
     .left {
         width: 100%;
     }
@@ -116,4 +122,16 @@ time {
     .img1 {
         max-width: 200px;
     }
+    /* altering tyhe image size on smaller devices */
+    body {
+        font-size: 13px;
+    }
+    /* altering the font size on smaller devices */
+    #btn {
+        position: relative;
+        top: 5px;
+    }
+    /* Moving the dark mode button on smaller devices */
 }
+/* media quesries to create a responsive webpage that looks good on mobile and desktop  */
+/* This is desktop first development as the media query alters the webpage for smaller devices. */
